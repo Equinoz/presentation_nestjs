@@ -1,0 +1,17 @@
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Environment variables
+env
+
+# Node
+node_modules
+
+# Git
+.gitignore
+.git
+
+# Documentation
+README.md
+docs
