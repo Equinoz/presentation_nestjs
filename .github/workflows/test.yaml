@@ -1,7 +1,7 @@
-name: lint
+name: test
 on: [pull_request]
 jobs:
-  eslint:
+  jest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -10,4 +10,4 @@ jobs:
           node-version: "16"
           cache: "npm"
       - run: npm install
-      - run: npm run lint
+      - run: npm run test
